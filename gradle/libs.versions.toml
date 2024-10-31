@@ -1,0 +1,16 @@
+[versions]
+tornadofx = "1.7.20"
+coroutines-javafx = "1.8.1"
+logback = "1.5.6"
+
+[libraries]
+tornadofx = { module = "no.tornado:tornadofx", version.ref = "tornadofx" }
+coroutines-javafx = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-javafx", version.ref = "coroutines-javafx" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+
+[bundles]
+
+[plugins]
+jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.20" }
+javafx = { id = "org.openjfx.javafxplugin", version = "0.1.0" }
+javamodularity = { id = "org.javamodularity.moduleplugin", version = "1.8.12" }

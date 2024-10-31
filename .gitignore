@@ -1,0 +1,13 @@
+# ignore cache and ide files
+.gradle/
+.idea/
+.kotlin/
+*.iml
+
+# ignore output files
+build/
+out/
+
+# ignore os specific files
+.DS_Store
+
